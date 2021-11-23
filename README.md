@@ -28,9 +28,9 @@ generator의 출력을 읽고 올바른지 여부 출력
 ## 실행
 
 ~~~
-generator <file | verifier
+./generator < [파일명] | ./verifier
 ~~~
 
 ~~~
-generator <file | alter arg | verifier
+./generator < [파일명] | ./alter arg | ./verifier
 ~~~
