@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 //해당 값의 비트 사이즈를 계산한다.
-int bitSize (unsigned long x) {git 
+int bitSize (unsigned long x) {
     int s = 0;
     while(x != 0) {
         x = x >> 1;
